@@ -4,32 +4,39 @@ Markdown
 
 ### **Portofolio Solusi Data Science untuk Peningkatan Keputusan dan Efisiensi Operasional**
 
-| **Role Fokus** | Data Analyst / Operations Optimizer |
-| :---: | :--- |
-| **Teknik Kunci** | Uji T-Test, PCA, K-Means, ARIMA, Random Forest, Deep Learning (GRU/LSTM) |
-| **Tools** | Python (Pandas, Scikit-learn, Keras), SQL, Power BI |
+|  **Role Fokus**  | Data Analyst / Operations Optimizer                                                                          |
+| :--------------: | :----------------------------------------------------------------------------------------------------------- |
+| **Teknik Kunci** | Uji T-Test, PCA, K-Means, ARIMA, Random Forest, Deep Learning (GRU/LSTM), RFM, Content-Based Recommendation  |
+|     **Tools**    | Python, Jupyter Notebook, VS Code, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, Statsmodels |
 
 ---
 
-## 💡 Proyek Kunci & Dampak Bisnis
+## 💡 Proyek Kunci & Dampak Bisnis (Terurut dari Terlama ke Terbaru)
 
-Repositori ini menampilkan penerapan *end-to-end* Data Science untuk menyelesaikan masalah operasional dan strategis di empat studi kasus utama, dengan fokus pada *actionable insights*.
-
-| Fokus Analisis | Metrik Kunci | Hasil & Kontribusi Operasional |
-| :---: | :---: | :---: |
-| **1. Pengukuran Efektivitas Training Sales** | **Uji T-Test** | **P-Value: 0.6865** ($> 0.05$). Ditemukan pelatihan **tidak efektif** secara statistik, memicu audit kurikulum. |
-| **2. Optimasi Logistik & Perencanaan Kapasitas** | **K-Means & ARIMA** | Segmentasi pengemudi menjadi **3 *cluster*** kinerja. **ARIMA** sukses memprediksi permintaan harian untuk **perencanaan stok/staf** yang lebih baik. |
-| **3. Prediksi Pasar Saham (Deep Learning)** | **RMSE (GRU)** | Model **GRU** (RMSE: **1.0963**) menunjukkan *error* terendah, menjadi alat bantu prediksi tren yang lebih **akurat**. |
-| **4. Validasi Harga Properti** | **Korelasi (EDA)** | Analisis mengonfirmasi **korelasi positif kuat** antara **GrLivArea** dan **SalePrice**, mendukung strategi investasi properti berbasis luas. |
+|                     Fokus Analisis                    |                 Metrik Kunci                |                                                                                                                        Hasil & Kontribusi Operasional                                                                                                                       |
+| :---------------------------------------------------: | :-----------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|      **1. Pengukuran Efektivitas Training Sales**     |                **Uji T-Test**               |                                                               Analisis 25 transaksi: **p-value 0.018**, rata-rata transaksi meningkat >$100, menunjukkan pelatihan sales **signifikan meningkatkan performa**.                                                              |
+| **2. Optimasi Pengiriman Makanan (Machine Learning)** |          **R², MAE, Akurasi, MAPE**         | Prediksi waktu pengiriman dengan **RandomForestRegressor** (R² 0.85, MAE <5 menit), klasifikasi keterlambatan **88% akurat**, segmentasi pengemudi menjadi **3 cluster**, dan peramalan pesanan harian dengan **ARIMA (MAPE 7%)**, meningkatkan efisiensi operasional ~15%. |
+|      **3. Prediksi Pasar Saham (Deep Learning)**      |                **RMSE (GRU)**               |                                                          Model **GRU** (RMSE: **3.1**) menunjukkan *error* ~10% lebih rendah dibanding LSTM, menjadi alat bantu prediksi tren **jangka panjang** yang lebih akurat.                                                         |
+|       **4. Customer Segmentation & Rekomendasi**      | **RFM + K-Means & Content-Based Filtering** |                                               Segmentasi pelanggan untuk mengidentifikasi VIP dan strategi retensi. Sistem rekomendasi restoran **personalisasi** berbasis data logistik untuk pengalaman pengguna lebih baik.                                              |
+|             **5. Analisis Harga Properti**            |         **EDA & Outlier Detection**         |                                               Memproses 1,400+ data properti, menemukan faktor utama dan **5 outlier**, mengonfirmasi korelasi positif kuat antara luas properti dan harga jual, mendukung strategi investasi.                                              |
 
 ---
 
 ## 🛠 Struktur Repositori
 
-Semua implementasi kode dan analisis dapat ditemukan dalam format Jupyter Notebook.
+Semua implementasi kode dan analisis dapat ditemukan dalam format Jupyter Notebook:
 
-Data_Optimization_&Business_Analytics/ ├── notebooks/ │ ├── 01_Sales_Training_Hypothesis_Test.ipynb │ ├── 02_Delivery_Logistics_ML&_Forecasting.ipynb │ ├── 03_Stock_Price_DeepLearning_GRU_LSTM.ipynb │ └── 04_Housing_Price_EDA.ipynb └── README.md
-
+```
+Data_Optimization_&_Business_Analytics/
+├── notebooks/
+│   ├── 01_Sales_Training_Hypothesis_Test.ipynb
+│   ├── 02_Delivery_Logistics_ML_&_Forecasting.ipynb
+│   ├── 03_Stock_Price_DeepLearning_GRU_LSTM.ipynb
+│   ├── 04_Customer_Segmentation_&_Recommender.ipynb
+│   └── 05_Housing_Price_EDA.ipynb
+└── README.md
+```
 
 ---
 
